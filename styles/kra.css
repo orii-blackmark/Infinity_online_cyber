@@ -1,0 +1,52 @@
+.main-content .service .lower{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+.main-content .service .lower .container{
+    border: solid 1px grey;
+    border-radius: 20px;
+    width: 80%;
+    min-height: 300px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.main-content .service .lower .container .logo{
+    min-height: 180px;
+    justify-content: center;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    background: #fff;
+    
+  }
+.main-content .service .lower .container .logo img{
+    widtwh: 100%;
+    heigwht: fit-content;
+}
+.main-content .service .lower .container .info{
+    min-height: 300px;
+}
+.main-content .service .lower .container .info h5{
+    font-size: 23px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.main-content .service .lower .container .info p{
+    margin-top: 10px;
+}
+.main-content .service .lower .container .info p a{
+    font-size: 18px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #000;
+    font-weight: 300;
+}
+.main-content .service .lower .container .info p a:hover{
+    color: #e78310;
+}
