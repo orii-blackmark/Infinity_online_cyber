@@ -342,12 +342,28 @@ footer .column1 .social-links ul li a .fa-instagram{
     border-radius: 10px;
     height: 100%;
   }
+  .main-content .service .lower .container.nca .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-content .service .lower .container.nca .logo img{
+    height: max-content;
+    width: 100%;
+  }
+
   .main-content .service .lower .container.ntsa .logo,
+  .main-content .service .lower .container.nca .logo,
   .main-content .service .lower .container.kuccps .logo,
+  .main-content .service .lower .container.ecitizen .logo,
+  .main-content .service .lower .container.kra .logo,
   .main-content .service .lower .container.helb .logo {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
   .main-content .service .lower .container .info{
