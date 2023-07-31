@@ -226,7 +226,7 @@ footer .column1 .social-links ul li a .fa-instagram {
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: right;
-  min-height: 600px; /* Adjust the height as needed */
+  min-height: 500px; /* Adjust the height as needed */
 }
 .banner .banner-content {
   width: 30%;
@@ -239,7 +239,6 @@ footer .column1 .social-links ul li a .fa-instagram {
 }
 .banner .banner-content h1 {
   font-size: 50px;
-  margin-top: 100px;
   color: #e78310;
 }
 .banner .banner-content p {
@@ -548,7 +547,7 @@ html {
   padding: 15px;
   margin: auto;
   border-radius: 20px;
-  margin-top: 250px;
+  margin-top: 60px;
   text-align: center;
 }
 .about-section .mission {
@@ -689,7 +688,7 @@ html {
   /*VALUES SECTION*/
 /*CONTACT US*/
 .contact {
-  min-height: 70vh;
+  min-height: 50vh;
   margin-top: 200px;
 }
 .contact .container {
@@ -701,7 +700,7 @@ html {
   background: #fff;
   border-radius: 20px;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
 }
@@ -719,11 +718,10 @@ html {
   align-items: center;
 }
 .contact .container .left .header h2 {
-  justify-content: left;
   font-size: 46px;
   color: #e78310;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 .contact .container .left .header h2::after {
   content: "";
@@ -788,7 +786,7 @@ html {
 }
 .contact .container .left .send {
   margin: 10px;
-  min-height: 60px; 
+  min-height: 60px;
 }
 .contact .container .left .send .input input {
   height: 50px;
@@ -818,7 +816,7 @@ footer {
   flex-direction: column;
   padding-top: 30px;
   color: #fff;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 footer .row1 {
   width: 100%;
@@ -1176,7 +1174,7 @@ footer .row2 .content .right .terms a:hover {
   }
 }
 
-@media (max-width: 746px){
+@media (max-width: 746px) {
   footer {
     padding-top: 30px;
     margin-top: 60px;
@@ -1187,7 +1185,7 @@ footer .row2 .content .right .terms a:hover {
     flex-direction: column;
     align-items: center;
   }
-  
+
   footer .row1 .column1 {
     width: 80%;
     display: flex;
@@ -1196,7 +1194,6 @@ footer .row2 .content .right .terms a:hover {
     padding: 2px 0 0 0;
     align-items: center;
     margin-top: 10px;
-
   }
   footer .row1 .column2 {
     padding: 20px 10px 10px 10px;
@@ -1212,11 +1209,12 @@ footer .row2 .content .right .terms a:hover {
     width: 80%;
     margin-top: 10px;
     margin-bottom: 10px;
-
   }
-
 }
-@media(max-width: 550px){
+@media (max-width: 550px) {
+  .contact .container .left .header h2 {
+    font-size: 40px;
+  }
   footer .row2 {
     padding: 5px;
   }
