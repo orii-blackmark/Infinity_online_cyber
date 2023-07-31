@@ -788,13 +788,11 @@ html {
 }
 .contact .container .left .send {
   margin: 10px;
-  display: flex;
-  justify-content: center;
-  min-height: 60px;
+  min-height: 60px; 
 }
 .contact .container .left .send .input input {
   height: 50px;
-  width: 300px;
+  width: 100%;
   outline: none;
   border: none;
   background: #e78310;
@@ -945,6 +943,7 @@ footer .row1 .column4 {
 }
 footer .row1 .column4 h3 {
   padding-left: 10px;
+
   color: #e78310;
 }
 footer .row1 .column4 .location {
@@ -1141,33 +1140,103 @@ footer .row2 .content .right .terms a:hover {
     width: 100%;
     height: 75%;
     display: flex;
-    border: solid;
     flex-direction: row;
     justify-content: center;
   }
   footer .row1 .column1 {
-    border: solid;
     width: 25%;
+  }
+  footer .row1 .column2 {
+    padding: 20px 10px 10px 5px;
+    width: 20%;
+  }
+  footer .row1 .column3 {
+    width: 25%;
+    padding: 20px 10px 10px 10px;
+  }
+  footer .row1 .column4 {
+    width: 30%;
+    padding: 20px 10px 10px 5px;
+  }
+  footer .row1 .column4 .email {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  footer .row1 .column4 .email .icon {
+    margin-right: 10px;
+    height: 100%;
+  }
+  footer .row1 .column4 .email .icon a {
+    font-size: 20px;
+    color: rgb(190, 11, 11);
+  }
+  footer .row1 .column4 .email .realmail {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 746px){
+  footer {
+    padding-top: 30px;
+    margin-top: 60px;
+  }
+  footer .row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .row1 .column1 {
+    width: 80%;
     display: flex;
     flex-direction: column;
     color: #fff;
     padding: 2px 0 0 0;
     align-items: center;
+    margin-top: 10px;
+
   }
   footer .row1 .column2 {
-    border: solid;
     padding: 20px 10px 10px 10px;
     text-align: left;
-    width: 15%;
+    width: 80%;
+    margin-top: 10px;
   }
   footer .row1 .column3 {
-    border: solid;
-    width: 25%;
-    padding: 20px 10px 10px 10px;
+    width: 80%;
+    margin-top: 10px;
   }
   footer .row1 .column4 {
-    border: solid;
-    width: 25%;
-    padding: 20px 10px 10px 10px;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+}
+@media(max-width: 550px){
+  footer .row2 {
+    padding: 5px;
+  }
+  footer .row2 .content {
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    padding: 0 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  footer .row2 .content .left {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  footer .row2 .content .right {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
   }
 }
