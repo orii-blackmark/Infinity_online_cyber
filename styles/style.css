@@ -94,6 +94,9 @@ footer .column1 .social-links ul li a .fa-instagram {
   display: flex;
   flex-direction: row;
 }
+.menubar .infobar ul li .right_content{
+  display: none;
+}
 
 .menubar .infobar ul .mail .mailicon {
   font-size: 23px;
@@ -1298,7 +1301,7 @@ footer .row2 .content .right .terms a:hover {
     display: block;
   }
   .menubar .infobar {
-    min-height: 300px;
+    min-height: 230px;
     background: #067563;
     width: 280px;
     position: absolute;
@@ -1431,40 +1434,7 @@ footer .row2 .content .right .terms a:hover {
     color: #e78310;
   }
   .menubar .infobar ul li .right_content {
-    width: 100%;
-    margin-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
-  }
-  .menubar .infobar ul li .right_content ul li {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    border: none;
-    justify-content: center;
-    margin-top: 5px;
-  }
-  .menubar .infobar ul li .right_content ul li .addicon {
-    margin-right: 5px;
-  }
-  .menubar .infobar ul li .right_content ul li .addservice {
-    border: none;
-  }
-  .menubar .infobar ul li .right_content ul li .addservice:hover,
-  .menubar .infobar ul li .right_content ul li.login a:hover {
-    color: #e78310;
-  }
-  .menubar .infobar ul li .right_content ul li.login {
-    border: none;
-  }
-  .menubar .infobar ul li .right_content ul li.login a {
-    border: none;
-    text-decoration: none;
-    color: #fff;
+    display: none;
   }
   .menubar .menu {
     height: 120px;
@@ -1480,77 +1450,11 @@ footer .row2 .content .right .terms a:hover {
   .menubar .menu .logo img {
     border: none;
   }
-  .menubar .menu .right_content {
-    width: 70%;
-    margin-left: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-  }
-  .menubar .menu .right_content ul {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  .menubar .menu .right_content ul li {
-    margin: 0 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    margin-top: auto;
-    margin-bottom: auto;
-    cursor: pointer;
-  }
-  .menubar .menu .right_content ul li.login {
-    text-align: center;
-  }
-  .menubar .menu .right_content ul li.login a {
-    border: none;
-    outline: none;
-    color: #fff;
-    width: 100px;
-    border-radius: 20px;
-    text-decoration: none;
-    background: #e78310;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 18px;
-    height: 45px;
-    line-height: 45px;
-    transition: all 0.5s ease;
-  }
-  .menubar .menu .right_content ul li.login a:hover {
-    font-size: 20px;
-  }
-  .menubar .menu .right_content ul li .addicon {
-    justify-content: center;
-    align-items: center;
-    margin-right: 2px;
-    padding: 2px;
-  }
-  .menubar .menu .right_content ul li .addicon a {
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    color: rgba(8, 95, 8, 0.973);
-  }
-  .menubar .menu .right_content ul li .addservice {
-    font-size: 16px;
-    padding: 0 2px;
-  }
-  .menubar .menu .right_content ul li .addservice:hover {
-    font-size: 17px;
-  }
 }
 @media (max-width: 625px) {
+  .menubar .infobar {
+    min-height: 300px;
+  }
   .menubar .menu {
     height: 120px;
     align-items: center;
@@ -1563,6 +1467,7 @@ footer .row2 .content .right .terms a:hover {
 
   .menubar .menu .right_content {
     display: none;
+    
   }
   .menubar .infobar ul li .right_content {
     width: 100%;
