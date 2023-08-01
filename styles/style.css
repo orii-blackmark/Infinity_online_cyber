@@ -1298,7 +1298,7 @@ footer .row2 .content .right .terms a:hover {
     display: block;
   }
   .menubar .infobar {
-    min-height: 250px;
+    min-height: 300px;
     background: #067563;
     width: 280px;
     position: absolute;
@@ -1354,6 +1354,9 @@ footer .row2 .content .right .terms a:hover {
     padding: 5px;
     margin: 10px;
     cursor: pointer;
+  }
+  .menubar .infobar ul li:last-child {
+    border: none;
   }
 
   .menubar .infobar ul .phone {
@@ -1427,13 +1430,49 @@ footer .row2 .content .right .terms a:hover {
   .menubar .infobar ul .phone .number p:hover {
     color: #e78310;
   }
+  .menubar .infobar ul li .right_content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .menubar .infobar ul li .right_content ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border: none;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .menubar .infobar ul li .right_content ul li .addicon {
+    margin-right: 5px;
+  }
+  .menubar .infobar ul li .right_content ul li .addservice {
+    border: none;
+  }
+  .menubar .infobar ul li .right_content ul li .addservice:hover,
+  .menubar .infobar ul li .right_content ul li.login a:hover {
+    color: #e78310;
+  }
+  .menubar .infobar ul li .right_content ul li.login {
+    border: none;
+  }
+  .menubar .infobar ul li .right_content ul li.login a {
+    border: none;
+    text-decoration: none;
+    color: #fff;
+  }
   .menubar .menu {
     height: 120px;
     align-items: center;
   }
   .menubar .menu .logo {
     width: 250px;
-    height: 65px;
+    height: 70px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
@@ -1511,7 +1550,7 @@ footer .row2 .content .right .terms a:hover {
     font-size: 17px;
   }
 }
-@media (max-width: 616px) {
+@media (max-width: 625px) {
   .menubar .menu {
     height: 120px;
     align-items: center;
@@ -1524,5 +1563,41 @@ footer .row2 .content .right .terms a:hover {
 
   .menubar .menu .right_content {
     display: none;
+  }
+  .menubar .infobar ul li .right_content {
+    width: 100%;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .menubar .infobar ul li .right_content ul li {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    border: none;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .menubar .infobar ul li .right_content ul li .addicon {
+    margin-right: 5px;
+  }
+  .menubar .infobar ul li .right_content ul li .addservice {
+    border: none;
+  }
+  .menubar .infobar ul li .right_content ul li .addservice:hover,
+  .menubar .infobar ul li .right_content ul li.login a:hover {
+    color: #e78310;
+  }
+  .menubar .infobar ul li .right_content ul li.login {
+    border: none;
+  }
+  .menubar .infobar ul li .right_content ul li.login a {
+    border: none;
+    text-decoration: none;
+    color: #fff;
   }
 }
